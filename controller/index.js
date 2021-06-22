@@ -1,3 +1,4 @@
+// const User = require("../../../model/user");
 const jwt = require("jsonwebtoken");
 
 module.exports.home = function (req, res) {
