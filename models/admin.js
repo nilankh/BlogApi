@@ -6,14 +6,17 @@ const adminSchema = new mongoose.Schema(
       type: String,
       required: true,
       unique: true,
+      default: "admin@gmail.com",
     },
     name: {
       type: String,
       required: true,
+      default: "Admin",
     },
     password: {
       type: String,
       required: true,
+      default: "admin@123",
     },
   },
   {
